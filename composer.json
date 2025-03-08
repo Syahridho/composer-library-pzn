@@ -1,0 +1,19 @@
+{
+    "name": "syahridho/belajar-composer-library",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Syahridho\\BelajarComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Syahridho Arjuna Syahputra",
+            "email": "syahridhosyahputra@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
